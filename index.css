@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@900&family=Mulish:wght@300;400;700;800&display=swap');
+
+.Mulish {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@900&family=Mulish:wght@300;400;700;800&display=swap');
+
+.inter {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 82%;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+/* footer section */
+
+.logo-footer-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+.footer-text {
+    text-align: center;
+    padding-top: 15px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin-top: 32px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #8e8889;
+}
+
+.copyright-section {
+    text-align: center;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 50px;
+
+    .contain {
+        background-color: #f3fefe;
+        width: 1440px;
+        height: 502px;
+    }
+
+    /* Header section */
+
+
+
+    @media screen and (max-weight: 576px) {
+        
+        .contain-mobile {
+            max-width: 576px;
+            margin: 0px auto;
+        }
+
+    }
